@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Univers black";
+    src: url("../font/Linotype\ -\ UniversNextPro-BlackCond.otf") format('opentype');
+    font-weight:900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Univers bold";
+    src: url("../font/Linotype\ -\ UniversNextPro-BoldCond.otf") format('opentype');
+}
+@font-face {
+    font-family: "Univers regular";
+    src: url("../font/Linotype\ -\ UniversNextPro-Cond.otf") format('opentype');
+}
+@font-face {
+    font-family: "Univers italic";
+    src: url("../font/Linotype\ -\ UniversNextPro-CondItalic.otf") format('opentype');
+}
+@font-face {
+    font-family: "Univers heavy";
+    src: url("../font/Linotype\ -\ UniversNextPro-HeavyCond.otf") format('opentype');
+}
+@font-face {
+    font-family: "Univers light";
+    src: url("../font/Linotype\ -\ UniversNextPro-LightCond.otf") format('opentype');
+}
+@font-face {
+    font-family: "Univers light italic";
+    src: url("/assets/font/Linotype\ -\ UniversNextPro-LightCondIt.otf") format('opentype');
+}
+@font-face {
+    font-family: "Univers medium";
+    src:  url('../font/Linotype\ -\ UniversNextPro-MediumCond.otf') format('opentype');
+}
+@font-face {
+    font-family: "Univers medium italic";
+    src:  url('../font/Linotype\ -\ UniversNextPro-MediumCondIt.otf') format('opentype');
+}
+@font-face {
+    font-family: "Babydoll";
+    src:  url('../font/BABYDOLL.TTF') format('truetype');
+}

@@ -1,0 +1,335 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Univers regular' , sans-serif;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0; 
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+a:hover{
+    cursor: pointer;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Univers black' , sans-serif;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    font-family: 'Babydoll', sans-serif;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    margin-top: 30px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+article{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    padding: 0% 5%;
+}
+
+
+
+.splashscreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: 10;
+    color: white;
+}
+.splashscreen-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.splashscreen-container h2{
+    color: black;
+}
+.splashscreen.display-none{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: -1;
+    color: white;
+    transition: all 0.5s;
+}
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+#logo-splashscreen{
+    width: 20%;
+    height: auto;
+}
+#logo-splashscreen-tnb{
+    width: 15%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+
+
+#nav-header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-bottom: solid 1px black;
+
+}
+#nav-items{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0; 
+}
+#nav-items li{
+    padding: 2% 5%;
+}
+#logo-small{
+    width: 40px;
+    height: auto;
+}
+#menu-toggle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
+#menu-toggle:hover{
+    cursor: pointer;
+}
+.menu-toggle-trait{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border-radius: 2px;
+}
+#menu-toggle-grosTrait{
+    height: 10px;
+}
+#logo-nav{
+    width: 60%;
+}
+#logo-nav-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#welcome-card{
+    position: fixed;
+    top: 10%;
+    z-index: 8;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px rgba(189, 189, 189, 0.330);
+}
+#welcome-card img{
+    height: 420px;
+    width: 420px;
+}
+#texte-intro{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#texte-intro p{
+    margin-bottom: 30px;
+}
+.close-button{
+    width: 260px;
+    height: 55px;
+    font-family: 'Univers regular' , sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #A212FF;
+    border: none;
+    border-radius: 10px;
+}
+.close-button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: solid 1px #A212FF;
+    color : #A212FF;
+}
+
+#menu-card{
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    z-index: 8;
+    width: 33%;
+    height: 80%;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-right: 2%;
+    font-family: 'Univers bold' , sans-serif;
+    font-size: 24px;
+    box-shadow: 2px 2px 10px 0px rgba(189, 189, 189, 0.330);
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Univers bold' , sans-serif;
+    font-size: 24px;
+    text-align: right;
+}
+#menu-items li{
+    margin-bottom: 30px;
+}
+#back{
+    margin-bottom: 20px;
+}
+
+#imgAR{
+    height: 50vh;
+    background-image: url(../img/etage02/etage02_atelier_couture_carre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Univers' , sans-serif;
+    margin-bottom: 20px;
+}
+#buttonAR{
+    color: white;
+    background-color: #A212FF;
+    border-radius: 12px;
+    height: 50px;
+    width: 70vw;
+    border: #A212FF solid 1px;
+}
+#buttonAR a{
+    color: white;
+}
+
+
+@media (max-width : 1480px) {
+    #texte-intro{
+        width: 320px;
+    }
+    #welcome-card img{
+        height: 320px;
+        width: 320px;
+    }
+}
+
+@media (max-width : 920px) {
+    #nav-header{
+        height: 100px;
+    }
+    #welcome-card{
+        width: 90%;
+        padding: 20px 0px 20px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #welcome-card img{
+        height: 260px;
+        width: 260px;
+    }
+    #logo-splashscreen{
+        width: 60%;
+        height: auto;
+    }
+    #logo-splashscreen-tnb{
+        width: 30%;
+        height: auto;
+        padding-bottom: 60px;
+    }
+    #logo-nav{
+        width: 80%;
+    }
+    #texte-intro{
+    width: 260px;
+    margin-top: -70px;
+    }
+    #menu-card{
+        padding-right: 10%;
+        width: 80%;
+    }
+}
