@@ -11,7 +11,7 @@ controls.update()
 
 const geometry = new THREE.SphereGeometry(50, 32, 16)
 const textureLoader = new THREE.TextureLoader()
-const texture = textureLoader.load('etage02_atelier_couture.jpg')
+const texture = textureLoader.load('https://raw.githubusercontent.com/AliceTi/tnb/main/assets/img/etage02/etage02_ecole_administration.JPG')
 const material = new THREE.MeshBasicMaterial({
     map: texture,
     side: THREE.DoubleSide

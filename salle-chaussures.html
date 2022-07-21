@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="Didascamim est un support pédagogique qui permet aux médiatrices culturelles du Théâtre National de Bretagne (TNB) de sensibiliser leurs publics aux arts vivants hors les murs. Projet mené par l'équipe 8 du projet TRANSMÉDIA de LISAA Rennes. Éloïse CARTERON, Emma SEPCHAT, Rémi COURTILLON, Manon DI RIENZO, Alice TIFFAY. 2022">
+    <title>DIDASCA'MIME - SALLE</title>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/style-salle.css">
+</head>
+<body>
+
+
+    <div id="splashscreen-accueil" class="splashscreen splashscreen-container">
+        <h2 class="fadeIn">L'atelier couture</h2>
+    </div>
+
+   
+    <header>
+        <nav id="nav-header">
+            <ul id="nav-items">
+                <li><a href="https://www.t-n-b.fr/" target="new"><img src="assets/img/TNB_Sigle-01.svg" alt="Logo du Théâtre National de Bretagne TNB" id="logo-small"></a></li>
+                <li><a href="index.html" id="logo-nav-container"><img src="assets/img/logo-ticket-temporaire-rvb.svg" alt="Logo Didascamimes, le théâtre en 5 étages" id="logo-nav"></a></li>
+                <li><div id="menu-toggle" onmouseover="menuAnimOver()" onmouseout="menuAnimOut()"
+                onclick="menuBurger()">
+                    <div id="menu-toggle-trait-top" class="menu-toggle-trait"></div>
+                    <div id="menu-toggle-grosTrait" class="menu-toggle-trait"></div>
+                    <div id="menu-toggle-trait-bot" class="menu-toggle-trait"></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="separator"></div>
+
+    <div id="menu-card">
+        <nav id="menu">
+            <ul id="menu-items">
+                <li><a href="#"><p>Règles du jeu</p></a></li>
+                <li class="menu-item-etage"><a href="#"><p>ÉTAGE 4</p></a></li>
+                <li><a href="#"><p>ÉTAGE 3</p></a></li>
+                <li><a href="etage-02.html"><p>ÉTAGE 2</p></a></li>
+                <li><a href="#"><p>ÉTAGE 1</p></a></li>
+                <li><a href="#"><p>RDC</p></a></li>
+                <li><a href="#"><p>SOUS-SOL</p></a></li>
+                <li><a href="#"><p>À propos</p></a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <main>
+        <div id="back"><a href="etage-02.html" ><</a></div>
+        <section id="imgAR">
+            <button id="buttonAR" type="button" onclick="maFonction()"><a href="test-360.html">AR 360°</a></button>
+        </section>
+        <section id="texte-presentation">
+            <h1>L'atelier couture</h1>
+            <p>Des bruits de pas, au loin les froufrous des costumes, des étudiants concentrés sur leurs prochaines répétitions. Le premier étage est une première étape pour découvrir l’envers du décors.</p>
+            <button id="buttonMore" type="button" onclick="myFunction()">*</button>
+        </section>
+        <section id="more">
+            <div>
+                <div class="carte"></div><p>Carte 1</p>
+            </div>
+            <div>
+                <div class="carte"></div><p>Carte 2</p>
+            </div>
+            <div>
+                <div class="carte"></div><p>Carte 3</p>
+            </div>
+            <div>
+                <div class="carte"></div><p>Carte 4</p>
+            </div>
+            <div>
+                <div class="carte"></div><p>Carte 5</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a><p>Mentions légales</p></a></li>
+                <li><a><p>Réseaux sociaux</p></a></li>
+                <li><a><p>Crédit : Éloïse, Emma, Rémi, Manon, Alice - 2022</p></a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
